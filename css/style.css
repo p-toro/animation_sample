@@ -1,0 +1,26 @@
+.wrapper {
+  height: 5000px;
+  padding: 20px;
+  background: linear-gradient(to bottom,
+    red,
+    orange,
+    yellow,
+    green,
+    aqua,
+    blue,
+    purple
+  );
+}
+
+.obj {
+  position: relative;
+  top: 200px;
+  margin-top: 800px;
+  opacity: 0;
+}
+
+.is-anime {
+  top: 0;
+  opacity: 1;
+  transition: all 1.5s ease-out;
+}
